@@ -1,0 +1,40 @@
+.navigation{
+  margin-bottom: 20px;
+}
+ul:nth-child(1){
+  padding: 0;
+}
+ul{
+  padding: 20;
+}
+ li {
+  list-style-type: none;
+  padding-left: 20px;
+  margin: 10px 0;
+}
+
+
+.arrow {
+  cursor: pointer;
+  user-select: none;
+}
+
+.arrow::before {
+  content: "\25B6";
+  color: black;
+  display: inline-block;
+  margin-right: 6px;
+  transform: rotate(90deg); 
+}
+
+.arrow.down::before {
+  transform: rotate(150deg);  
+}
+
+.nested {
+  display: none;
+}
+
+.active {
+  display: block;
+}

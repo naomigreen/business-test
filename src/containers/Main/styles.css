@@ -1,0 +1,40 @@
+.main-section{
+  display: grid;
+  grid-template-columns: 350px 5fr;
+  font-family: sans-serif;
+}
+
+.menu{
+ border-right: 2px solid #000;
+ padding: 20px;
+}
+
+.card-section{
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr;
+  grid-auto-rows: 18vh;
+}
+
+.nav{
+  display: grid;
+  grid-row: span 2;
+}
+.filter{
+  border-top: 2px solid #000;
+}
+
+.loading-icon{
+  position: relative;
+  margin: 200px auto;
+  display: block;
+}
+
+.price-range{
+  width: 100%;
+}
+.data-values{
+  display: flex;
+  justify-content: space-between;
+
+}
